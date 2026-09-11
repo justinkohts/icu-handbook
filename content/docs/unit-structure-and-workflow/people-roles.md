@@ -5,7 +5,6 @@ params:
 weight: 10
 ---
 
-# ICU Team
 
 ## Director
 
@@ -106,7 +105,7 @@ weight: 10
 
 
 ## ICU Registrars
-There are usually approximately 28 registrars from various disciplines, including but not limited to:
+There are approximately 28 registrars from various disciplines, including but not limited to:
 - Anesthesia
 - Emergency Medicine
 - General Medicine

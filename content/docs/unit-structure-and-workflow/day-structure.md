@@ -1,6 +1,7 @@
 ---
 title: Structure of the Work Day
-icon: calendar-day
+params:
+  number_headings: false
 weight: 20
 ---
 
