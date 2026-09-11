@@ -1,7 +1,8 @@
 ---
 title: People & Roles
+params:
+  number_headings: false
 weight: 10
-numberHeadings: false
 ---
 
 # ICU Team
@@ -105,3 +106,9 @@ numberHeadings: false
 
 
 ## ICU Registrars
+There are usually approximately 28 registrars from various disciplines, including but not limited to:
+- Anesthesia
+- Emergency Medicine
+- General Medicine
+- Intensive Care Medicine
+- Respiratory Medicine
