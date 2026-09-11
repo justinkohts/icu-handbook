@@ -1,5 +1,8 @@
 # Hugo configuration file
-title: My Site
+title: Waikato ICU
+
+enableGitInfo: true
+
 
 # import hextra as module
 module:
@@ -18,7 +21,7 @@ markup:
 
 menu:
   main:
-    - name: Docs
+    - name: ICU Handbook
       pageRef: /docs
       weight: 1
     - name: About
@@ -31,18 +34,11 @@ menu:
       weight: 4
       params:
         type: search
-    - name: GitHub
-      weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
-      params:
-        icon: github
-    - name: Twitter
-      weight: 6
-      url: "https://twitter.com/"
-      params:
-        icon: x-twitter
+
 
 params:
+  description: "Resources for Intensive Care Practice"
+
   navbar:
     displayTitle: true
     displayLogo: false
@@ -53,4 +49,19 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+    base: "https://github.com/justinkohts/icu-handbook/edit/main/content"
+
+  externalLinkDecoration: true
+
+  search:
+    enable: true
+    type: flexsearch
+    flexsearch:
+      index: content
+      tokenize: forward
+
+  theme.default: system
+
+  displayUpdatedDate: true
+  displayUpdatedAuthor: false
+  dateFormat: "2 January 2006"

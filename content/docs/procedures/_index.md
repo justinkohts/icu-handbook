@@ -1,7 +1,7 @@
 ---
 title: Procedures folder
 next: first-page
-weight: 20
+weight: 50
 ---
 
 Procedures folder
