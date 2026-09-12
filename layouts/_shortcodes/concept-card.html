@@ -1,0 +1,9 @@
+<div class="concept-card">
+  {{ with .Get "title" }}
+    <div class="concept-card-title">{{ . }}</div>
+  {{ end }}
+
+  <div class="concept-card-content">
+    {{ .InnerDeindent | strings.TrimSpace | .Page.RenderString }}
+  </div>
+</div>

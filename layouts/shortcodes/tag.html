@@ -1,0 +1,6 @@
+{{- $type := .Get "type" | default "default" -}}
+{{- $text := .Get "text" -}}
+
+<span class="content-tag content-tag-{{ $type }}">
+  {{ $text }}
+</span>

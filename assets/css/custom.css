@@ -1,3 +1,9 @@
+
+.hextra-search-wrapper kbd {
+  display: none !important;
+}
+
+
 /* =========================================================
    AUTOMATIC HEADING NUMBERING
 
@@ -71,4 +77,152 @@
 .content:not(.no-number-headings) h5::before {
   display: inline-block;
   margin-right: 0.6rem;
+}
+
+
+/* Responsive side-by-side concept cards */
+.concept-cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.concept-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  background: transparent;
+}
+
+.concept-card-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: 0.01em;
+
+  padding: 0.75rem 1.25rem;
+
+  background: #f5f5f5;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.concept-card-content {
+  padding: 1rem 1.25rem;
+}
+
+html.dark .concept-card {
+  border-color: #404040;
+}
+
+html.dark .concept-card-title {
+  background: #262626;
+  border-bottom-color: #404040;
+}
+
+
+/* Remove unnecessary top/bottom spacing */
+.concept-card-content > :first-child {
+  margin-top: 0;
+}
+
+.concept-card-content > :last-child {
+  margin-bottom: 0;
+}
+
+/* Lists */
+.concept-card-content ul,
+.concept-card-content ol {
+  padding-left: 1.25rem;
+  margin: 0.5rem 0;
+}
+
+.concept-card-content ul {
+  list-style-type: disc;
+}
+
+.concept-card-content ol {
+  list-style-type: decimal;
+}
+
+.concept-card-content li {
+  margin: 0.25rem 0;
+}
+
+/* Stack cards vertically on mobile */
+@media (max-width: 768px) {
+  .concept-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* Inline evidence/content tags */
+
+.content-tag {
+  display: inline-block;
+  padding: 0.08rem 0.4rem;
+  margin-left: 0.25rem;
+
+  font-size: 0.68rem;
+  font-weight: 600;
+  line-height: 1.4;
+
+  border: 1px solid currentColor;
+  border-radius: 0.35rem;
+
+  background: transparent;
+  white-space: nowrap;
+  vertical-align: 0.08em;
+}
+
+/* Tag colors */
+
+.content-tag-trial {
+  color: #2563eb;
+}
+
+.content-tag-guideline {
+  color: #16a34a;
+}
+
+.content-tag-review {
+  color: #9333ea;
+}
+
+.content-tag-systematic-review {
+  color: #d97706;
+}
+
+.content-tag-mechanism {
+  color: #0891b2;
+}
+
+.content-tag-controversy {
+  color: #dc2626;
+}
+
+/* Slightly softer colors in dark mode */
+
+html.dark .content-tag-trial {
+  color: #60a5fa;
+}
+
+html.dark .content-tag-guideline {
+  color: #4ade80;
+}
+
+html.dark .content-tag-review {
+  color: #c084fc;
+}
+
+html.dark .content-tag-systematic-review {
+  color: #fbbf24;
+}
+
+html.dark .content-tag-mechanism {
+  color: #22d3ee;
+}
+
+html.dark .content-tag-controversy {
+  color: #f87171;
 }

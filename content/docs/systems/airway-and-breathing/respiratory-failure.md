@@ -1,2 +1,44 @@
-# Respiratory Failure
+---
+title: Respiratory Failure
+weight: 20
+---
 
+**Definition:** Failure of efficient gas exchange. Either failure to oxygenate, or failure to ventilate.
+
+
+{{< concept-cards >}}
+
+{{< concept-card title="Type 1 Respiratory Failure" >}}
+
+- Failure to oxygenate.
+- **PaO2 < 8 kPa (60 mmHg)**, classically measured on room air at sea level.
+- PaCO2 normal or low.
+- **Examples:**
+  - Pneumonia.
+  - Pulmonary edema.
+  - ARDS.
+  - Pulmonary hemorrhage.
+
+{{< /concept-card >}}
+
+{{< concept-card title="Type 2 Respiratory Failure" >}}
+
+- Failure to ventilate.
+- **PaCO2 > 6.0 kPa (45 mmHg)** due to inadequate alveolar ventilation.
+- Usually associated with hypoxemia.
+- Exclude an appropriate compensatory rise in PaCO2 from primary metabolic alkalosis.
+- **Examples:**
+  - ↓ respiratory drive.
+  - Respiratory fatigue.
+  - Severe airflow obstruction.
+  - ↑ physiological dead space.
+
+{{< /concept-card >}}
+
+{{< /concept-cards >}}
+
+
+
+
+## Resources
+- [Review on respiratory failure](https://pubmed.ncbi.nlm.nih.gov/14621112/)
