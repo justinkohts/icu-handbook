@@ -62,4 +62,4 @@ HFNO provides multiple physiological benefits:
 
 
 ## Key Trials and Guidelines
-- FLORALI trial {{< tag type="trial" text="Key Trial" >}}
+- FLORALI trial {{< tag type="trial" text="Key Trial" >}}.
