@@ -14,3 +14,4 @@ weight: 10
 4. Non-invasive Ventilation
 5. Invasive Mechanical Ventilation
 6. Proning in ARDS
+7. Liberation from Mechanical Ventilation

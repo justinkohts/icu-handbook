@@ -11,7 +11,7 @@ weight: 20
 {{< concept-card title="Type 1 Respiratory Failure" >}}
 
 - Failure to oxygenate.
-- **PaO2 < 8 kPa (60 mmHg)**, classically measured on room air at sea level.
+- **PaO₂ < 8 kPa (60 mmHg)**, classically measured on room air at sea level.
 - PaCO2 normal or low.
 - **Examples:**
   - Pneumonia.
@@ -24,9 +24,9 @@ weight: 20
 {{< concept-card title="Type 2 Respiratory Failure" >}}
 
 - Failure to ventilate.
-- **PaCO2 > 6.0 kPa (45 mmHg)** due to inadequate alveolar ventilation.
+- **PaCO₂ > 6.0 kPa (45 mmHg)** due to inadequate alveolar ventilation.
 - Usually associated with hypoxemia.
-- Exclude an appropriate compensatory rise in PaCO2 from primary metabolic alkalosis.
+- Exclude an appropriate compensatory rise in PaCO₂ from primary metabolic alkalosis.
 - **Examples:**
   - ↓ respiratory drive.
   - Respiratory fatigue.

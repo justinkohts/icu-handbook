@@ -3,7 +3,7 @@ title: High Flow Nasal Cannula Oxygen
 weight: 40
 ---
 
-## Summary
+## Overview
 High Flow Nasal Cannula Oxygen (HFNO) delivers a heated, humidified air-oxygen mixture via wide-bore nasal cannulae.
 
 Adult systems generally provide:
@@ -25,6 +25,7 @@ HFNO provides multiple physiological benefits:
 
 
 ## Indications
+
 - Acute hypoxemic respiratory failure.
 - Post-extubation oxygen support in selected patients.
 - Preoxygenation and apneic oxygenation during intubation.
@@ -33,6 +34,7 @@ HFNO provides multiple physiological benefits:
 
 
 ## Contraindications
+
 - Blocked nasal passages.
 - Unprotected airway.
 - Significant facial/nasal trauma.
@@ -41,6 +43,7 @@ HFNO provides multiple physiological benefits:
 
 
 ## Management
+
 - Use appropriately sized cannulae which do not completely occlude the nares.
 - **Flow:** commonly 40–60 L/min, adjusted to comfort and work of breathing.
   - Increasing flow improves inspiratory flow matching, dead space washout, airway pressure, and work of breathing.
@@ -57,9 +60,7 @@ HFNO provides multiple physiological benefits:
 
 ## Resources
 
-- [ATOTW article on HFNO](https://resources.wfsahq.org/atotw/high-flow-oxygen-in-anaesthesia-and-critical-care/)
-- Review article https://pubmed.ncbi.nlm.nih.gov/27016353/
-
-
-## Key Trials and Guidelines
-- FLORALI trial {{< tag type="trial" text="Key Trial" >}}.
+- {{< badge content="Key Trial" color="blue" >}} [FLORALI (2015):](https://pubmed.ncbi.nlm.nih.gov/25981908/) RCT comparing HFNO vs standard O₂ therapy or NIV.
+- {{< badge content="Guideline" color="green" >}} [ERS guidelines on HFNO in acute respiratory failure](https://pubmed.ncbi.nlm.nih.gov/34649974/)
+- {{< badge content="Review" color="purple" >}} [Pro](https://pubmed.ncbi.nlm.nih.gov/40933744/) and [Con](https://pubmed.ncbi.nlm.nih.gov/40933738/) articles on HFNO as first line therapy in acute hypoxemic respiratory failure.
+- {{< badge content="Review" color="purple" >}} [ATOTW article on HFNO](https://resources.wfsahq.org/atotw/high-flow-oxygen-in-anaesthesia-and-critical-care/)

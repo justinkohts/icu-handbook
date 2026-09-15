@@ -1,3 +1,72 @@
+.content {
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.content p {
+  margin-top: 0;
+  margin-bottom: 0.85rem;
+}
+
+.content li {
+  margin-bottom: 0.25rem;
+  line-height: 1.55;
+}
+
+/* Major section */
+.content h2 {
+  margin-top: 2.5rem !important;
+  margin-bottom: 0.9rem !important;
+}
+
+/* Subsection */
+.content h3 {
+  margin-top: 2rem !important;
+  margin-bottom: 0.7rem !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+  padding-bottom: 0.25rem;
+}
+
+/* Minor subheading */
+.content h4 {
+  margin-top: 1.3rem !important;
+  margin-bottom: 0.35rem !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  padding-bottom: 0.2rem;
+}
+
+.content p:has(+ ul),
+.content p:has(+ ol) {
+  margin-bottom: 0.3rem;
+}
+
+.content ul,
+.content ol {
+  margin-top: 0 !important;
+}
+
+/* Line under subheadings for dark mode */
+html.dark .content h3 {
+  border-bottom-color: rgba(255, 255, 255, 0.12);
+}
+
+html.dark .content h4 {
+  border-bottom-color: rgba(255, 255, 255, 0.07);
+}
+
+
+/* Remove Hextra spacing from content directly after headings */
+.content h2 + p,
+.content h3 + p,
+.content h4 + p,
+.content h2 + ul,
+.content h3 + ul,
+.content h4 + ul,
+.content h2 + ol,
+.content h3 + ol,
+.content h4 + ol {
+  margin-top: 0 !important;
+}
 
 .hextra-search-wrapper kbd {
   display: none !important;
@@ -10,8 +79,7 @@
    H1 = page title (not numbered)
    H2 = 1.
    H3 = 1.1
-   H4 = 1.1.1
-   H5 = 1.1.1.1
+   Stop automatic heading numbering at H4
    ========================================================= */
 
 
@@ -45,36 +113,19 @@
   content: counter(h2) "." counter(h3);
 }
 
-
-/* H4 */
-
-.content:not(.no-number-headings) h4 {
-  counter-increment: h4;
-  counter-reset: h5;
-}
-
-.content:not(.no-number-headings) h4::before {
-  content: counter(h2) "." counter(h3) "." counter(h4);
-}
-
-
-/* H5 */
-
-.content:not(.no-number-headings) h5 {
-  counter-increment: h5;
-}
-
-.content:not(.no-number-headings) h5::before {
-  content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5);
+/* Do not number H4–H6 */
+.content h4::before,
+.content h5::before,
+.content h6::before {
+  content: none !important;
+  counter-increment: none !important;
 }
 
 
 /* Space between number and heading */
 
 .content:not(.no-number-headings) h2::before,
-.content:not(.no-number-headings) h3::before,
-.content:not(.no-number-headings) h4::before,
-.content:not(.no-number-headings) h5::before {
+.content:not(.no-number-headings) h3::before {
   display: inline-block;
   margin-right: 0.6rem;
 }
@@ -99,6 +150,7 @@
   font-weight: 700;
   font-size: 1.1rem;
   letter-spacing: 0.01em;
+  text-align: center;
 
   padding: 0.75rem 1.25rem;
 
@@ -156,73 +208,333 @@ html.dark .concept-card-title {
 }
 
 
-/* Inline evidence/content tags */
+/* Tighter paragraph - list spacing */
+.content p + ul,
+.content p + ol {
+  margin-top: 0.25rem;
+}
 
-.content-tag {
+/* General list spacing */
+.content ul,
+.content ol {
+  margin-top: 0.4rem;
+  margin-bottom: 0.8rem;
+}
+
+/* Spacing between list items */
+.content li {
+  margin-top: 0.15rem;
+  margin-bottom: 0.15rem;
+}
+
+
+.image-hover-link {
+  position: relative;
   display: inline-block;
-  padding: 0.08rem 0.4rem;
-  margin-left: 0.25rem;
-
-  font-size: 0.68rem;
-  font-weight: 600;
-  line-height: 1.4;
-
-  border: 1px solid currentColor;
-  border-radius: 0.35rem;
-
-  background: transparent;
-  white-space: nowrap;
-  vertical-align: 0.08em;
 }
 
-/* Tag colors */
+.image-hover-preview {
+  display: none;
+  position: absolute;
 
-.content-tag-trial {
-  color: #2563eb;
+  z-index: 1000;
+
+  left: 0;
+  top: 1.5rem;
+
+  width: 360px;
+  max-width: 80vw;
+
+  padding: 0.4rem;
+
+  background: white;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
 }
 
-.content-tag-guideline {
-  color: #16a34a;
+.image-hover-preview img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  margin: 0;
+
+  border-radius: 0.25rem;
 }
 
-.content-tag-review {
-  color: #9333ea;
+.image-hover-link:hover .image-hover-preview,
+.image-hover-link:focus .image-hover-preview {
+  display: block;
 }
 
-.content-tag-systematic-review {
-  color: #d97706;
+/* Dark mode */
+html.dark .image-hover-preview {
+  background: #1f2937;
+  border-color: #374151;
 }
 
-.content-tag-mechanism {
-  color: #0891b2;
+/* Disable hover popup on touchscreen devices */
+@media (hover: none) {
+  .image-hover-preview {
+    display: none !important;
+  }
 }
 
-.content-tag-controversy {
-  color: #dc2626;
+
+
+
+/* =========================================
+   SOFTER HEXTRA LIGHT / DARK THEMES
+   ========================================= */
+
+/* ---------- LIGHT MODE ---------- */
+
+html:not(.dark) body {
+  background-color: #efefec !important;
+  color: #2b2b2b;
 }
 
-/* Slightly softer colors in dark mode */
-
-html.dark .content-tag-trial {
-  color: #60a5fa;
+html:not(.dark) .hextra-nav-container-blur {
+  background-color: #efefec !important;
 }
 
-html.dark .content-tag-guideline {
-  color: #4ade80;
+html:not(.dark) .hextra-sidebar-container [data-toggle-animation="show"] {
+  background-color: #efefec !important;
+  box-shadow: 0 -12px 16px #efefec !important;
 }
 
-html.dark .content-tag-review {
-  color: #c084fc;
+/* Right TOC footer */
+html:not(.dark) .hextra-toc .hextra-scrollbar > div:last-child {
+  background-color: #efefec !important;
+  box-shadow: 0 -12px 16px #efefec !important;
 }
 
-html.dark .content-tag-systematic-review {
-  color: #fbbf24;
+
+/* ---------- DARK MODE ---------- */
+
+html.dark body {
+  background-color: #1c1c1e !important;
+  color: #d8d8d8;
 }
 
-html.dark .content-tag-mechanism {
-  color: #22d3ee;
+html.dark .hextra-nav-container-blur {
+  background-color: #1c1c1e !important;
 }
 
-html.dark .content-tag-controversy {
-  color: #f87171;
+html.dark .hextra-sidebar-container [data-toggle-animation="show"] {
+  background-color: #1c1c1e !important;
+  box-shadow: 0 -12px 16px #1c1c1e !important;
+}
+
+/* Right TOC footer */
+html.dark .hextra-toc .hextra-scrollbar > div:last-child {
+  background-color: #1c1c1e !important;
+  box-shadow: 0 -12px 16px #1c1c1e !important;
+}
+
+/* =========================================
+   CONCEPT CARDS — LIGHT MODE
+   ========================================= */
+
+html:not(.dark) .concept-card {
+  background-color: #f4f4f1;
+  border: 1px solid #cfcfca;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+}
+
+html:not(.dark) .concept-card-title {
+  background-color: #e7e7e2;
+  border-bottom: 1px solid #cfcfca;
+  color: #2b2b2b;
+}
+
+html:not(.dark) .concept-card-content {
+  color: #333333;
+}
+
+
+/* Light-mode top navigation/header */
+html:not(.dark) .hextra-nav-container-blur {
+  background-color: #e5e5e1 !important;
+  border-bottom: 1px solid #cdcdc7;
+}
+/* Dark-mode top navigation/header */
+html.dark .hextra-nav-container-blur {
+  background-color: #242426 !important;
+  border-bottom: 1px solid #343436;
+}
+
+/* =========================================
+   HEXTRA — CUSTOM LIGHT / DARK THEME
+   ========================================= */
+
+
+/* =========================================
+   LIGHT MODE
+   ========================================= */
+
+/* Main page */
+html:not(.dark) body {
+  background-color: #efefec !important;
+  color: #2b2b2b;
+}
+
+
+/* Top header / navigation */
+html:not(.dark) .hextra-nav-container-blur {
+  background-color: #e5e5e1 !important;
+  border-bottom: none !important;
+}
+
+
+/* Left sidebar + right TOC */
+html:not(.dark) .hextra-sidebar-container,
+html:not(.dark) .hextra-toc {
+  background-color: #ecece8 !important;
+  border: none !important;
+}
+
+
+/* Left sidebar bottom controls */
+html:not(.dark) .hextra-sidebar-container [data-toggle-animation="show"] {
+  background-color: #ecece8 !important;
+  box-shadow: 0 -12px 16px #ecece8 !important;
+}
+
+
+/* Right sidebar footer:
+   "Edit this page on GitHub" / "Scroll to top" */
+html:not(.dark) .hextra-toc .hextra-scrollbar > div:last-child {
+  background-color: #ecece8 !important;
+  box-shadow: 0 -12px 16px #ecece8 !important;
+  border: none !important;
+}
+
+
+/* Concept cards */
+html:not(.dark) .concept-card {
+  background-color: #f4f4f1;
+  border: 1px solid #d9d9d4;
+  border-radius: 0.8rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.025);
+}
+
+html:not(.dark) .concept-card-title {
+  background-color: #e8e8e4;
+  border-bottom: 1px solid #d9d9d4;
+  color: #2b2b2b;
+}
+
+html:not(.dark) .concept-card-content {
+  color: #333333;
+}
+
+
+/* =========================================
+   DARK MODE
+   ========================================= */
+
+/* Main page */
+html.dark body {
+  background-color: #1c1c1e !important;
+  color: #d8d8d8;
+}
+
+
+/* Top header / navigation */
+html.dark .hextra-nav-container-blur {
+  background-color: #242426 !important;
+  border-bottom: none !important;
+}
+
+
+/* Left sidebar + right TOC */
+html.dark .hextra-sidebar-container,
+html.dark .hextra-toc {
+  background-color: #202022 !important;
+  border: none !important;
+}
+
+
+/* Left sidebar bottom controls */
+html.dark .hextra-sidebar-container [data-toggle-animation="show"] {
+  background-color: #202022 !important;
+  box-shadow: 0 -12px 16px #202022 !important;
+}
+
+
+/* Right sidebar footer:
+   "Edit this page on GitHub" / "Scroll to top" */
+html.dark .hextra-toc .hextra-scrollbar > div:last-child {
+  background-color: #202022 !important;
+  box-shadow: 0 -12px 16px #202022 !important;
+  border: none !important;
+}
+
+
+/* Concept cards */
+html.dark .concept-card {
+  background-color: #232325;
+  border: 1px solid #363638;
+  border-radius: 0.8rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+html.dark .concept-card-title {
+  background-color: #29292b;
+  border-bottom: 1px solid #363638;
+  color: #e0e0e0;
+}
+
+html.dark .concept-card-content {
+  color: #d3d3d3;
+}
+
+
+/* =========================================
+   TABLES
+   ========================================= */
+
+/* ---------- LIGHT MODE ---------- */
+
+html:not(.dark) .content table {
+  border-color: #d9d9d4;
+}
+
+html:not(.dark) .content table thead {
+  background-color: #e8e8e4 !important;
+}
+
+html:not(.dark) .content table th {
+  background-color: #e8e8e4 !important;
+  color: #2b2b2b;
+  border-color: #d9d9d4;
+}
+
+html:not(.dark) .content table td {
+  border-color: #d9d9d4;
+}
+
+
+/* ---------- DARK MODE ---------- */
+
+html.dark .content table {
+  border-color: #363638;
+}
+
+html.dark .content table thead {
+  background-color: #29292b !important;
+}
+
+html.dark .content table th {
+  background-color: #29292b !important;
+  color: #e0e0e0;
+  border-color: #363638;
+}
+
+html.dark .content table td {
+  border-color: #363638;
 }

@@ -1,0 +1,20 @@
+{{- $src := .Get "src" -}}
+{{- $text := .Get "text" | default "View image" -}}
+{{- $alt := .Get "alt" | default $text -}}
+
+{{- with resources.Get $src -}}
+  <a
+    class="image-hover-link"
+    href="{{ .RelPermalink }}"
+    target="_blank"
+    rel="noopener"
+  >
+    {{ $text }}
+
+    <span class="image-hover-preview">
+      <img src="{{ .RelPermalink }}" alt="{{ $alt }}">
+    </span>
+  </a>
+{{- else -}}
+  <span class="image-missing">Image not found: {{ $src }}</span>
+{{- end -}}
