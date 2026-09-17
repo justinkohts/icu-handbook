@@ -5,8 +5,8 @@ weight: 60
 
 ## Overview
 
-- Mechanical ventilation aims to provide adequate oxygenation and ventilation while minimizing ventilator-induced lung injury.
-- There is no single best mode of mechanical ventilation for all patients.
+- Invasive mechanical ventilation delivers positive pressure breaths via an artificial airway.
+- **Major indications** include hypoxemic respiratory failure, hypercapnic respiratory failure, airway compromise, and respiratory distress.
 
 {{< concept-card title="Main principles and typical targets" >}}
 - **SpO₂:** 92–96%; or 88–92% in patients at risk of hypercapnic respiratory failure.
@@ -24,7 +24,10 @@ weight: 60
 
 
 ## Ventilator Modes
-There are many modes of mechanical ventilation. Broadly speaking, they can be categorized into:
+
+Mechanical ventilation aims to provide adequate oxygenation and ventilation while minimizing ventilator-induced lung injury. There are many modes of mechanical ventilation, but there is no single best mode of mechanical ventilation for all patients.
+
+Broadly speaking, the modes can be categorized into:
 - **Controlled/mandatory:** volume control, pressure control.
 - **Supported:** CPAP, pressure support.
 - **Adaptive:** PRVC.
