@@ -20,7 +20,37 @@ weight: 60
 - ⚠️ Positive pressure ventilation may exacerbate or induce hypotension by ↑ intrathoracic pressure and ↓ venous return.
 {{< /concept-card >}}
 
+## Objectives
+Mechanical ventilation aims to:
+- **Maintain oxygenation** and improve V/Q matching.
+- **Maintain alveolar ventilation** and control PaCO₂/pH.
+- **Reduce work of breathing.**
+- **Recruit and maintain lung volume.**
 
+
+## Indications
+
+The decision to intubate and initiate invasive mechanical ventilation is primarily clinical, and should not rely on a single ABG, imaging finding, or physiological parameter.
+
+Consider invasive ventilation for:
+- **Threatened airway** or inability to protect the airway.
+- **Respiratory failure:** refractory hypoxemia and/or inadequate ventilation.
+- **Respiratory muscle fatigue** or impending exhaustion.
+- **Inability to clear secretions** or maintain airway patency.
+- **Need for controlled ventilation** e.g. severe neurological injury, profound physiological instability, or procedures requiring deep sedation.
+- **Safe transport** or investigation when airway or respiratory deterioration is anticipated.
+
+### Objective measurements
+Objective measurements **may** aid in clinical decision-making, e.g.:
+- **Marked tachypnea** (RR > 35/min).
+- **Falling tidal volume** (<5 mL/kg) or **vital capacity** (< 15 mL/kg), **particularly in neuromuscular disease**.
+- **Worsening hypercapnia** (PaCO2 > 60 mmHg).
+- **Worsening hypoxemia:**
+  - PaO₂ < 75 mmHg on FiO₂ > 0.4
+  - PaO₂:FiO₂ ratio <150
+
+
+⚠️ Do not delay intubation while waiting for arbitrary physiologic measurements if the patient is clinically deteriorating.
 
 
 ## Ventilator Modes

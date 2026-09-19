@@ -6,6 +6,7 @@ weight: 50
 ## Overview
 - Non-Invasive Ventilation (NIV) provides positive-pressure respiratory support without an ETT, usually through a tight-fitting face mask.
 - NIV can improve gas exchange, work of breathing, and avoid complications associated with invasive mechanical ventilation.
+- In appropriately-selected patients, particularly those with acute exacerbation of COPD with acute respiratory acidosis, NIV may reduce the need for intubation, VAP risk, and ICU length of stay.
 - Acute NIV should be commenced in an appropriately-monitored environment with trained staff and ability to escalate rapidly to invasive ventilation.
 
 
@@ -65,7 +66,7 @@ weight: 50
 **After starting NIV:**
 - Continuously assess clinical status (RR, work of breathing, consciousness, SpO2).
 - Repeat blood gas assessment.
-- An improving trajectory should become apparent within 1–2 hours.
+- An improving trajectory should become apparent within 1–4 hours.
 
 
 ### NIV Failure
@@ -93,3 +94,4 @@ Features suggesting NIV failure:
 - {{< badge content="Review" color="purple" >}} [Criner et al. (2024):](https://pubmed.ncbi.nlm.nih.gov/39227076/) review article on NIV. Good summary of trials.
 - {{< badge content="Editorial" color="orange" >}} [Rittayamai et al. (2022):](https://pubmed.ncbi.nlm.nih.gov/35759009/) brief overview on HFNO and NIV. Has a useful diagram comparing the two.
 - {{< badge content="Guideline" color="green" >}} [BTS/ICS guidelines (2016):](https://pubmed.ncbi.nlm.nih.gov/26976648/) guidelines on type 2 respiratory failure, and NIV use particularly in COPD exacerbation.
+- {{< badge content="Guideline" color="green" >}} [ERS/ATS guidelines (2017):](https://pubmed.ncbi.nlm.nih.gov/28860265/) guidelines on NIV for respiratory failure. Outlines evidence for NIV indications, and its utility in COPD exacerbation.
