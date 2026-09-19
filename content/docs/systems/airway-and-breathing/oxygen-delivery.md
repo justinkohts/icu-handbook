@@ -22,4 +22,4 @@ Oxygen delivery devices can be classified into **variable performance** and **fi
 
 
 ## Resources
-- {{< badge content="Review" color="purple" >}} [TSANZ Position Statement on Acute Oxygen Use:](https://pubmed.ncbi.nlm.nih.gov/35178831/) describes oxygen delivery devices.
+- {{< badge content="Review" color="purple" >}} [TSANZ Position Statement (2022):](https://pubmed.ncbi.nlm.nih.gov/35178831/) describes oxygen delivery devices.

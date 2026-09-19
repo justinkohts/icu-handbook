@@ -61,6 +61,6 @@ HFNO provides multiple physiological benefits:
 ## Resources
 
 - {{< badge content="Key Trial" color="blue" >}} [FLORALI (2015):](https://pubmed.ncbi.nlm.nih.gov/25981908/) RCT comparing HFNO vs standard O₂ therapy or NIV.
-- {{< badge content="Guideline" color="green" >}} [ERS guidelines on HFNO in acute respiratory failure](https://pubmed.ncbi.nlm.nih.gov/34649974/)
+- {{< badge content="Guideline" color="green" >}} [ERS guidelines on HFNO in acute respiratory failure (2022)](https://pubmed.ncbi.nlm.nih.gov/34649974/)
 - {{< badge content="Review" color="purple" >}} [Pro](https://pubmed.ncbi.nlm.nih.gov/40933744/) and [Con](https://pubmed.ncbi.nlm.nih.gov/40933738/) articles on HFNO as first line therapy in acute hypoxemic respiratory failure.
-- {{< badge content="Review" color="purple" >}} [ATOTW article on HFNO](https://resources.wfsahq.org/atotw/high-flow-oxygen-in-anaesthesia-and-critical-care/)
+- {{< badge content="Review" color="purple" >}} [ATOTW article on HFNO (2020)](https://resources.wfsahq.org/atotw/high-flow-oxygen-in-anaesthesia-and-critical-care/)
