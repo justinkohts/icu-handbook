@@ -110,17 +110,17 @@ Endotracheal intubation is a high risk but life-saving procedure often performed
 
 
 ## Pre-Intubation Assessment
-Intubation can be difficult due to anatomical or physiological challenges. Assessing a difficult airway involves identifying anatomical features or clinical conditions that may compromise oxygenation during mask ventilation or ETT placement.
+Intubation can be difficult due to **anatomical** or **physiological** challenges. Assessing a difficult airway involves identifying anatomical features or clinical conditions that may compromise oxygenation during mask ventilation or ETT placement.
 
 #### Prediction of difficult bag mask ventilation
 - The mnemonic MOANS or BONES may help predict difficult bag mask ventilation.
-- **MOANS:** Mask seal issues, Obesity/Obstruction, Age >55, No teeth, Sleep Apnea or Stiff lungs.
-- **BONES:** Beard, Obesity/Obstruction, No teeth, Elderly, Sleep apnea.
+- **MOANS:** **M**ask seal issues, **O**besity/Obstruction, **A**ge >55, **N**o teeth, **S**leep apnea or **S**tiff lungs.
+- **BONES:** **B**eard, **O**besity/Obstruction, **N**o teeth, **E**lderly, **S**leep apnea.
 - See [Appendix B](#appendix-b-airway-assessment) for more detail.
 
 #### Prediction of difficult laryngoscopy and tracheal intubation
 - The mnemonic LEMON may help predict difficult laryngoscopy and tracheal intubation.
-- **LEMON:** Look externally (habitus, dentition, trauma), Evaluate (3-3-2 rule), Mallampati, Obstruction/Obesity, Neck mobility. 
+- **LEMON:** **L**ook externally (habitus, dentition, trauma), **E**valuate (3-3-2 rule), **M**allampati, **O**bstruction/Obesity, **N**eck mobility. 
 - See [Appendix B](#appendix-b-airway-assessment) for more detail.
 
 
