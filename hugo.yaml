@@ -70,3 +70,6 @@ params:
   displayUpdatedDate: true
   displayUpdatedAuthor: false
   dateFormat: "2 January 2006"
+
+  imageZoom:
+    enable: true

@@ -538,3 +538,15 @@ html.dark .content table th {
 html.dark .content table td {
   border-color: #363638;
 }
+
+
+/* Restart numbering at 1 for every Hextra steps block */
+.hextra-steps {
+  counter-reset: local-step;
+}
+
+/* Override normal H3 numbering inside the stepper */
+.hextra-steps h3::before {
+  counter-increment: local-step !important;
+  content: counter(local-step) ". " !important;
+}
