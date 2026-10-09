@@ -136,9 +136,9 @@ Intubation can be difficult due to **anatomical** or **physiological** challenge
 
 ## Team roles
 Skilled assistance is mandatory. Where possible, a team of 5 is required at the minimum.
-- **Team leader:** the ICU SMO/SR or ICU nurse in charge.
+- **Team leader:** the ICU SMO / Senior Registrar or ICU nurse in charge.
 - **Primary intubator:** who controls the airway.
-- **Second intubator:** may be ICU SMO/SR.
+- **Second intubator:** may be ICU SMO / Senior Registrar.
 - **Drug administration:** who may also co-ordinate the procedure.
 - **Dedicated airway assistant:** who helps deliver airways/adjuncts to the primary intubator, and may be able to administer cricoid pressure or BURP if required.
 
