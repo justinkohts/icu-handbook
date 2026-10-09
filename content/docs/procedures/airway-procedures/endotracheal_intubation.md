@@ -63,8 +63,8 @@ Endotracheal intubation is a high risk but life-saving procedure often performed
 
 ### Assessment of Airway
 - See [pre-intubation assessment](#pre-intubation-assessment)
-- Involves **prediction** of difficult bag mask ventilation, laryngoscopy, and tracheal intubation.
-- **Recognition of a physiologically difficult airway** is also paramount.
+- Involves **prediction** of difficult bag mask ventilation, laryngoscopy, and tracheal intubation. **Recognition of a physiologically difficult airway** is also paramount.
+- Consider the need for **awake tracheal intubation**.
 - **Optimize first-pass success:** bougie/stylet, video laryngoscopy, patient positioning.
 - **Verbalize intubation plan** during checklist.
 - For a [physiologically difficult airway](#recognition-of-physiologically-difficult-airway), priorities include:
@@ -175,7 +175,7 @@ Suggested plans are in [Appendix C](#appendix-c-management-of-difficult-intubati
 
 
 ## Resources
-- {{< badge content="Guideline" color="green" >}} [DAS guidelines for difficult intubation (2025)](https://pubmed.ncbi.nlm.nih.gov/41203471/) with a [link to their cognitive aids](https://das.uk.com/guidelines/das_intubation_guidelines/)
+- {{< badge content="Guideline" color="green" >}} [DAS guidelines for unanticipated difficult intubation (2025)](https://pubmed.ncbi.nlm.nih.gov/41203471/) with a [link to their cognitive aids](https://das.uk.com/guidelines/das_intubation_guidelines/)
 - {{< badge content="Guideline" color="green" >}} [DAS guidelines for unanticipated difficult intubation in adults (2025)](https://pubmed.ncbi.nlm.nih.gov/41203471/)
 - {{< badge content="Tool" color="yellow" >}} [Vortex approach for airway management](https://www.vortexapproach.org/)
 - {{< badge content="Statement" color="yellow" >}} [SOCCA Physiologically Difficult Airway Task Force consensus statement (2024)](https://pubmed.ncbi.nlm.nih.gov/39162823/)
