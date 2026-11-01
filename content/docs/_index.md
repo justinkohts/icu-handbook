@@ -1,20 +1,8 @@
 ---
-title: Documentation
-next: first-page
-cascade:
-  type: docs
+title: ICU handbook
+params:
+  number_headings: false
 ---
 
-This is a demo of the theme's documentation layout.
+This is the ICU handbook landing page.
 
-## Hello, World!
-
-```go {filename="main.go"}
-package main
-
-import "fmt"
-
-func main() {
-    fmt.Println("Hello, World!")
-}
-```
