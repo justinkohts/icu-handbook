@@ -77,8 +77,8 @@ If cardiac arrest occurs while prone, CPR may be started prone while preparing f
 
 
 ## Resources
-- {{< badge content="Key Trial" color="blue" >}} [PROSEVA (2013):](https://pubmed.ncbi.nlm.nih.gov/23688302/) landmark RCT. In severe ARDS, prone positioning for ≥ 16 hours reduced mortality.
-- {{< badge content="Review" color="purple" >}} [Ehrmann et al. (2026):](https://pubmed.ncbi.nlm.nih.gov/42474726/) overview on prone positioning for ARDS.
+- {{< badge content="Key Trial" color="blue" >}} [PROSEVA (2013):](https://pubmed.ncbi.nlm.nih.gov/23688302/) Landmark RCT. In severe ARDS, prone positioning for ≥ 16 hours reduced mortality.
+- {{< badge content="Review" color="purple" >}} [Ehrmann et al. (2026):](https://pubmed.ncbi.nlm.nih.gov/42474726/) Overview on prone positioning for ARDS.
 - {{< badge content="Guideline" color="green" >}} [ICS (2026):](https://ics.ac.uk/resource/prone-position-in-adult-critical-care.html) ICS guideline on prone positioning, including CPR and defibrillation. Document includes pictures and checklists.
-- {{< badge content="Systematic Review" color="amber" >}} [Anez et al. (2021):](https://pubmed.ncbi.nlm.nih.gov/33086246/) systematic review examining CPR in prone position. Briefly outlines hand position and defibrillation.
-- {{< badge content="Video" color="indigo" >}} [WFSA (2020):](https://www.youtube.com/watch?v=JNb4owwdx-Y) video on how to prone and de-prone ventilated patients.
+- {{< badge content="Systematic Review" color="amber" >}} [Anez et al. (2021):](https://pubmed.ncbi.nlm.nih.gov/33086246/) Systematic review examining CPR in prone position. Briefly outlines hand position and defibrillation.
+- {{< badge content="Video" color="indigo" >}} [WFSA (2020):](https://www.youtube.com/watch?v=JNb4owwdx-Y) Video on how to prone and de-prone ventilated patients.

@@ -91,7 +91,7 @@ Features suggesting NIV failure:
 
 
 ## Resources
-- {{< badge content="Review" color="purple" >}} [Criner et al. (2024):](https://pubmed.ncbi.nlm.nih.gov/39227076/) review article on NIV. Good summary of trials.
-- {{< badge content="Editorial" color="orange" >}} [Rittayamai et al. (2022):](https://pubmed.ncbi.nlm.nih.gov/35759009/) brief overview on HFNO and NIV. Has a useful diagram comparing the two.
-- {{< badge content="Guideline" color="green" >}} [BTS/ICS guidelines (2016):](https://pubmed.ncbi.nlm.nih.gov/26976648/) guidelines on type 2 respiratory failure, and NIV use particularly in COPD exacerbation.
-- {{< badge content="Guideline" color="green" >}} [ERS/ATS guidelines (2017):](https://pubmed.ncbi.nlm.nih.gov/28860265/) guidelines on NIV for respiratory failure. Outlines evidence for NIV indications, and its utility in COPD exacerbation.
+- {{< badge content="Review" color="purple" >}} [Criner et al. (2024):](https://pubmed.ncbi.nlm.nih.gov/39227076/) Review article on NIV. Good summary of trials.
+- {{< badge content="Editorial" color="orange" >}} [Rittayamai et al. (2022):](https://pubmed.ncbi.nlm.nih.gov/35759009/) Brief overview on HFNO and NIV. Has a useful diagram comparing the two.
+- {{< badge content="Guideline" color="green" >}} [BTS/ICS guidelines (2016):](https://pubmed.ncbi.nlm.nih.gov/26976648/) Guidelines on type 2 respiratory failure, and NIV use particularly in COPD exacerbation.
+- {{< badge content="Guideline" color="green" >}} [ERS/ATS guidelines (2017):](https://pubmed.ncbi.nlm.nih.gov/28860265/) Guidelines on NIV for respiratory failure. Outlines evidence for NIV indications, and its utility in COPD exacerbation.

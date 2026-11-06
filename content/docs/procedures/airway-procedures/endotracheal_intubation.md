@@ -178,7 +178,7 @@ Suggested plans are in [Appendix C](#appendix-c-management-of-difficult-intubati
 - {{< badge content="Guideline" color="green" >}} [DAS guidelines for unanticipated difficult intubation (2025)](https://pubmed.ncbi.nlm.nih.gov/41203471/) with a [link to their cognitive aids](https://das.uk.com/guidelines/das_intubation_guidelines/)
 - {{< badge content="Guideline" color="green" >}} [DAS guidelines for unanticipated difficult intubation in adults (2025)](https://pubmed.ncbi.nlm.nih.gov/41203471/)
 - {{< badge content="Tool" color="yellow" >}} [Vortex approach for airway management](https://www.vortexapproach.org/)
-- {{< badge content="Statement" color="yellow" >}} [SOCCA Physiologically Difficult Airway Task Force consensus statement (2024)](https://pubmed.ncbi.nlm.nih.gov/39162823/)
+- {{< badge content="Consensus" class="badge-brown" >}} [SOCCA Physiologically Difficult Airway Task Force consensus statement (2024)](https://pubmed.ncbi.nlm.nih.gov/39162823/)
 
 
 ## Appendices

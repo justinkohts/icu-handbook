@@ -42,4 +42,4 @@ weight: 20
 
 
 ## Resources
-- {{< badge content="Review" color="purple" >}} [Roussos & Koutsoukou (2003):](https://pubmed.ncbi.nlm.nih.gov/14621112/) review on respiratory failure types and mechanisms.
+- {{< badge content="Review" color="purple" >}} [Roussos & Koutsoukou (2003):](https://pubmed.ncbi.nlm.nih.gov/14621112/) Review on respiratory failure types and mechanisms.

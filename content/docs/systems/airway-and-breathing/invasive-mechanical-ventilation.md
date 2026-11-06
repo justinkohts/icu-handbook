@@ -50,7 +50,7 @@ Objective measurements **may** aid in clinical decision-making, e.g.:
   - PaO₂:FiO₂ ratio <150
 
 
-⚠️ Do not delay intubation while waiting for arbitrary physiologic measurements if the patient is clinically deteriorating.
+> ⚠️ Do not delay intubation while waiting for arbitrary physiologic measurements if the patient is clinically deteriorating.
 
 
 ## Ventilator Modes
@@ -173,7 +173,7 @@ Complications of invasive mechanical ventilation can be categorized into:
 
 
 ## Resources
-- {{< badge content="Key Trial" color="blue" >}} [ARDSNet ARMA (2000):](https://pubmed.ncbi.nlm.nih.gov/10793162/) landmark RCT comparing low vs high tidal volume ventilation in ARDS.
-- {{< badge content="Guideline" color="green" >}} [ESICM guidelines (2023):](https://pubmed.ncbi.nlm.nih.gov/37326646/) guidelines on ARDS and oxygenation therapies.
-- {{< badge content="Review" color="purple" >}} [JICS education (2026):](https://pubmed.ncbi.nlm.nih.gov/42542730/) review article on mechanical ventilation.
-- {{< badge content="Review" color="purple" >}} [Roca et al. (2023):](https://pubmed.ncbi.nlm.nih.gov/37191695/) review article on driving pressure.
+- {{< badge content="Key Trial" color="blue" >}} [ARDSNet ARMA (2000):](https://pubmed.ncbi.nlm.nih.gov/10793162/) Landmark RCT comparing low vs high tidal volume ventilation in ARDS.
+- {{< badge content="Guideline" color="green" >}} [ESICM guidelines (2023):](https://pubmed.ncbi.nlm.nih.gov/37326646/) Guidelines on ARDS and oxygenation therapies.
+- {{< badge content="Review" color="purple" >}} [JICS education (2026):](https://pubmed.ncbi.nlm.nih.gov/42542730/) Review article on mechanical ventilation.
+- {{< badge content="Review" color="purple" >}} [Roca et al. (2023):](https://pubmed.ncbi.nlm.nih.gov/37191695/) Review article on driving pressure.

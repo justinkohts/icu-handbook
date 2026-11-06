@@ -1,16 +1,14 @@
 ---
 title: 🔥 Burns
-prev: docs/systems
-next: first-page
 weight: 40
 ---
 
 🔥 Burns
 
 
-1. Referral decision-making & prognosis
+1. Referrals and decision-making
 2. Burns assessment
 3. Early management
-4. Fluid management
-5. Airway & inhalational injury
-6. Nutrition & hypermetabolic response
+4. Airway management & inhalational injury
+5. Nutrition & hypermetabolic response
+6. Escharotomy
