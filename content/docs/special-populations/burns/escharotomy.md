@@ -20,7 +20,7 @@ Standard escharotomy incisions are in green. These avoid superficial neurovascul
 ![Escharotomy sites](/images/special-populations/burns/escharotomy.png)
 
 ## Monitoring
-Following escharotomy, reassess distal perfusion and ventilation, with **hourly neurovascular observations**. Persistent ischemia despite adequate eschar decompression should prompt reassessment for **compartment syndrome** and possible fasciotomy.
+Following escharotomy, reassess distal perfusion and ventilation with **hourly neurovascular observations**. Persistent ischemia despite adequate eschar decompression should prompt reassessment for **compartment syndrome** and possible fasciotomy.
 
 ## Resources
 - {{< badge content="Guideline" color="green" >}} [NZ National Burn Service Escharotomy Guideline](https://static.info.content.health.nz/docs/health-pros/burns/Escharotomy%20in%20Burn%20Care%20Guideline.pdf)

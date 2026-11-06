@@ -53,8 +53,6 @@ For scattered and patchy burns, the **palmar method** may be useful. Each patien
 
 ![Palmar method](/images/special-populations/burns/palmar.png)
 
-
-
 ### Burn Depth Estimation
 Estimating burn depth guides wound management and predicts healing.
 - **Superficial/epidermal burns** are typically moist, pink, painful, briskly blanching. Similar to sunburns. Exclude these from %TBSA estimation.
@@ -72,7 +70,6 @@ Estimating burn depth guides wound management and predicts healing.
 ![Burns depth](/images/special-populations/burns/burn_depth.png)
 
 
-
 ### Burn Location and Distribution
 
 - **Special anatomical areas:** face, hands, feet, perineum/genitalia, and major joints. These may result in significant functional or cosmetic impairment despite a small %TBSA.
@@ -85,7 +82,20 @@ Estimating burn depth guides wound management and predicts healing.
 - **Chemical burns:** injury may progress until the chemical agent is removed or inactivated.
 
 
+## Burn Mortality Prediction
+Mortality following burn injury can be estimated using the revised Baux score. It has been extensively validated and demonstrates excellent discrimination ([AUROC ~0.93](https://pubmed.ncbi.nlm.nih.gov/37220881/)). A nomogram can be used to estimate the probability of mortality.
+
+$$
+\text{Revised Baux Score} = \text{Age} + \%\text{TBSA} + 17\text{(inhalational injury)}
+$$
+- Age in years.
+- %TBSA: Percentage of total body surface area burned, excluding superficial epidermal burns.
+- Inhalation injury: add 17 points if present.
+
+![rBaux nomogram](/images/special-populations/burns/rbaux_nomogram.png)
+
 ## Resources
 - {{< badge content="Documents" color="yellow" >}} [NZ National Burn Service Resources:](https://www.healthnz.govt.nz/health-professionals/guidance-standards/topic/burns/national-burn-service) referral forms, flowchart, guidelines, phone numbers.
 - {{< badge content="Guideline" color="green" >}} [NZ National Burn Service Guideline](https://static.info.content.health.nz/docs/health-pros/topics/burns/national-burn-service-initial-assessment-management-burn-injuries-guidelines.pdf): initial assessment and management of burn injuries.
 - {{< badge content="Educational Resource" class="badge-lime" >}} [The Plastics Fella:](https://www.theplasticsfella.com/total-body-surface-area-in-burns/) TBSA measurement methods in burns patients. Also discusses prognostic scores.
+- {{< badge content="Tool" color="yellow" >}} [Williams & Walker (2015):](https://pubmed.ncbi.nlm.nih.gov/24934520/) Nomogram for the Revised Baux Score.
