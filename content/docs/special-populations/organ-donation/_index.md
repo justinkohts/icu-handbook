@@ -1,7 +1,5 @@
 ---
 title: 🎁 Organ Donation
-prev: docs/systems
-next: first-page
 weight: 70
 ---
 

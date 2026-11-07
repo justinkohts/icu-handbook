@@ -95,7 +95,7 @@ $$
 ![rBaux nomogram](/images/special-populations/burns/rbaux_nomogram.png)
 
 ## Resources
-- {{< badge content="Documents" color="yellow" >}} [NZ National Burn Service Resources:](https://www.healthnz.govt.nz/health-professionals/guidance-standards/topic/burns/national-burn-service) referral forms, flowchart, guidelines, phone numbers.
+- {{< badge content="Document" color="yellow" >}} [NZ National Burn Service Resources:](https://www.healthnz.govt.nz/health-professionals/guidance-standards/topic/burns/national-burn-service) referral forms, flowchart, guidelines, phone numbers.
 - {{< badge content="Guideline" color="green" >}} [NZ National Burn Service Guideline](https://static.info.content.health.nz/docs/health-pros/topics/burns/national-burn-service-initial-assessment-management-burn-injuries-guidelines.pdf): initial assessment and management of burn injuries.
 - {{< badge content="Educational Resource" class="badge-lime" >}} [The Plastics Fella:](https://www.theplasticsfella.com/total-body-surface-area-in-burns/) TBSA measurement methods in burns patients. Also discusses prognostic scores.
 - {{< badge content="Tool" color="yellow" >}} [Williams & Walker (2015):](https://pubmed.ncbi.nlm.nih.gov/24934520/) Nomogram for the Revised Baux Score.

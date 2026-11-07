@@ -22,4 +22,4 @@ Severe burn management has become increasingly specialized over time. Waikato Ho
 **Do not** call the Middlemore Burn surgeon or ICU directly.
 
 ## Resources
-- {{< badge content="Documents" color="yellow" >}} [NZ National Burn Service Resources:](https://www.healthnz.govt.nz/health-professionals/guidance-standards/topic/burns/national-burn-service) referral forms, flowchart, guidelines, phone numbers.
+- {{< badge content="Document" color="yellow" >}} [NZ National Burn Service Resources:](https://www.healthnz.govt.nz/health-professionals/guidance-standards/topic/burns/national-burn-service) referral forms, flowchart, guidelines, phone numbers.

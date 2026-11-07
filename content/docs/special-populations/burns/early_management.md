@@ -79,5 +79,5 @@ $$
 
 
 ## Resources
-- {{< badge content="Documents" color="yellow" >}} [NZ National Burn Service Resources:](https://www.healthnz.govt.nz/health-professionals/guidance-standards/topic/burns/national-burn-service) referral forms, flowchart, guidelines, phone numbers.
+- {{< badge content="Document" color="yellow" >}} [NZ National Burn Service Resources:](https://www.healthnz.govt.nz/health-professionals/guidance-standards/topic/burns/national-burn-service) referral forms, flowchart, guidelines, phone numbers.
 - {{< badge content="Guideline" color="green" >}} [NZ National Burn Service Guideline](https://static.info.content.health.nz/docs/health-pros/topics/burns/national-burn-service-initial-assessment-management-burn-injuries-guidelines.pdf): initial assessment and management of burn injuries.
