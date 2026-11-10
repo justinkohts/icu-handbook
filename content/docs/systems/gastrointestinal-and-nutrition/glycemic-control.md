@@ -1,2 +1,4 @@
-# Glycemic Control
-
+---
+title: Glycemic Control
+weight: 20
+---

@@ -1,2 +1,0 @@
-# 🐛 Infection & Sepsis
-

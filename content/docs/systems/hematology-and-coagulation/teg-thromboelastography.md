@@ -4,7 +4,10 @@ weight: 40
 ---
 
 ## Overview
-Thromboelastography (TEG) is a viscoelastic assay to measure whole blood clotting initiation, formation, strength, and lysis. Waikato Hospital uses the **TEG6s device**, primarily in cardiothoracic surgery and the immediate post-operative period. **TEG-guided transfusion algorithms** reduce blood product utilization, particularly in cardiac surgery.
+Thromboelastography (TEG) is a viscoelastic assay that assesses whole blood clotting initiation, formation, strength, and lysis. Waikato Hospital uses the **TEG6s device**, primarily in cardiothoracic surgery and the immediate post-operative period. **TEG-guided transfusion algorithms** reduce blood product utilization, particularly in cardiac surgery. 
+
+The Waikato Hospital [online TEG calculator](https://teg-interpretation-a-4noc.bolt.host/), developed by Dr. Scott Robinson, is a practical tool to guide TEG interpretation and transfusion management.
+
 
 
 ## When to Use
@@ -22,7 +25,7 @@ TEG is used to assess coagulopathy and guide targeted hemostatic therapy, partic
 ## How to Use
 
 ### TEG Measurement & Interpretation
-Results are available through Waikato Hospital TEG Manager following sample processing. **Interpretation is dependent on the assay**, as the TEG6s cartridge provides additional measurements including functional fibrinogen and heparinase. Thus, **utilize the TEG algorithms** when interpreting TEG.
+Results are available through **Waikato Hospital TEG Manager** (available via Everthing Blood on the Intranet) following sample processing. **Interpretation is dependent on the assay**, as the TEG6s cartridge provides additional measurements including functional fibrinogen and heparinase. Thus, **utilize the TEG algorithms** when interpreting TEG.
 
 The main principles of interpretation are listed below.
 
@@ -35,7 +38,14 @@ The main principles of interpretation are listed below.
 
 
 ### TEG Algorithms
-Waikato Hospital uses local TEG-guiided transfusion algorithms to guide hemostatic therapy. An online calculator is also available.
+Waikato Hospital uses local TEG-guided transfusion algorithms to guide hemostatic therapy. An [online TEG calculator](https://teg-interpretation-a-4noc.bolt.host/) developed by Dr. Scott Robinson is also available.
+
+#### TEG Algorithm for Cardiac Surgery Patients
+![TEG cardiac surgery ICU](/images/systems/hematology-and-coagulation/teg_algorithm_cardiac_ICU.png)
+
+
+#### TEG Algorithm for NON-Cardiac Surgery Patients
+![TEG non cardiac surgery](/images/systems/hematology-and-coagulation/teg_algorithm_non_cardiac.png)
 
 
 ### TEG Patterns
@@ -53,3 +63,4 @@ Waikato Hospital uses local TEG-guiided transfusion algorithms to guide hemostat
 
 ## Resources
 - {{< badge content="Systematic Review / Meta-analysis" color="amber" >}} [Cochrane Review (2026):](https://pubmed.ncbi.nlm.nih.gov/42145275/) 35 RCTs (21 were elective cardiac surgery), 3096 patients. TEG/ROTEM-guided transfusion algorithms may reduce risk of mortality, FFP/platelet transfusion, surgical reintervention.
+- {{< badge content="Tool" color="yellow" >}} [Waikato Hospital TEG6s Interpretation and Treatment Calculator](https://teg-interpretation-a-4noc.bolt.host/) by Dr. Scott Robinson

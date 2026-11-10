@@ -1,2 +1,4 @@
-# Stress Ulcer Prophylaxis
-
+---
+title: Stress Ulcer Prophylaxis
+weight: 30
+---
