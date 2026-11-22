@@ -1,7 +1,5 @@
 ---
 title: ❤️‍🩹 Cardiothoracic Surgery
-prev: docs/systems
-next: first-page
 weight: 10
 ---
 
